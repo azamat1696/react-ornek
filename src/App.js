@@ -1,11 +1,12 @@
- import './App.css';
-import logo from "./logo192.png";
+import './index.css'
+import Button from "./components/Button";
+
 function App() {
   return (
-    <div className="App">
-        <img src="./logo512.png" alt=""/>
-        <img src={logo} alt=""/>
-    </div>
+<div className="p-4">
+<Button text="Button" variant="success" />
+<Button text="Button" variant="warning" />
+</div>
   );
 }
 
