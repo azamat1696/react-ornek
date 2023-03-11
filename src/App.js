@@ -69,6 +69,7 @@ const App = () => {
                 <button type="submit" disabled={!name || !avatar}>submit</button>
             </form>
             <h1>Kullanicilar</h1>
+            <h1>cdsdsdsdsd</h1>
              <ul>
                 {user && user.map(item=>(
                     <li key={item.id}>{item.name}</li>
