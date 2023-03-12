@@ -68,7 +68,7 @@ const App = () => {
                 <input type="file" name="avatar"   onChange={event => setAvatar(event.target.files[0])}/>
                 <button type="submit" disabled={!name || !avatar}>submit</button>
             </form>
-            <h1>Kullanicilar</h1>
+            <h1>Kullanicilar deneme 1213</h1>
             <h1>cdsdsdsdsd</h1>
              <ul>
                 {user && user.map(item=>(
