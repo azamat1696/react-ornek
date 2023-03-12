@@ -21,7 +21,7 @@ const Header = () => {
     return(
         <header>
             Header <br/>
-            {user && <button onClick={logoutHandle}>Cikis yap</button> || <button onClick={loginHandle}>Giris yap</button>}
+            {user && <button onClick={logoutHandle}>xcxcxcxcxcxcxcxcxc yap</button> || <button onClick={loginHandle}>Giris yap</button>}
             <hr/>
             <br/>
             <SwitchTheme /><br/>
