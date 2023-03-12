@@ -14,11 +14,11 @@ const App = () => {
     formData.append('title','Post deneme')
     formData.append('body','Text body')
 
-    const addPost = data => {
+    const addPost = (data) => {
         fetch('https://jsonplaceholder.typicode.com/posts',{
             method: 'POST',
             headers:{
-               // 'Content-Type':'application/json'
+                 'Content-Type':'application/json'
             },
             body: formData
         })
@@ -42,7 +42,7 @@ const App = () => {
             body: 'Body text azamat'
         }
         addPost(data)
-    },[])
+    })
 
     const  submitHandle = e => {
         e.preventDefault()
