@@ -56,7 +56,7 @@ const App = () => {
         fetch('https://jsonplaceholder.typicode.com/posts',{
             method: 'POST',
             headers:{
-                 //'Content-Type':'application/json'
+                  'Content-Type':'application/json'
             },
             body: formData
         })
